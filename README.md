@@ -13,7 +13,7 @@ At the same time，make the 7 modifications：
 
 3.when use the above modifications，the limit of trjectory direction at every function that accomplish the calculation in the reference paper will decrease the optional trajectory number，so delete the limit.
 
-4.after applying the 3), some candidate trajectory conld not reach the goal so, add a funcion to estimate if the trajectory can make the vehicle reach the goal, if not, delete the trajectory.
+4.after applying the 3), some candidate trajectory conld not reach the goal, so add a funcion to estimate if the trajectory can make the vehicle reach the goal, if not, delete the trajectory.
 
 5.the calculation of some code accomplished can get right result, but the specific formula is different from the formula of reference paper. And the formula in reference paper can also get the right result. if the above situation appear use the formula in the reference paper.
 
