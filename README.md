@@ -15,7 +15,7 @@ At the same time，make the 7 modifications：
 
 4.after applying the 3), some candidate trajectory conld not reach the goal, so add a funcion to estimate if the trajectory can make the vehicle reach the goal, if not, delete the trajectory.
 
-5.the calculation of some code accomplished can get right result, but the specific formula is different from the formula of reference paper. And the formula in reference paper can also get the right result. if the above situation appear use the formula in the reference paper.
+5.the calculation of some code accomplished can get right result, but the specific formula is different from the formula of reference paper. And the formula in reference paper can also get the right result. if the above situation appear, using the formula in the reference paper.
 
 6.regrading to the "CCCC" type trajectory, when generate the "path", the sign of "t", "u", "v" (which is subtrajectory length) have some error, so make correction.
 
