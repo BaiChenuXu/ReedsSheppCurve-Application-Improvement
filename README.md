@@ -11,7 +11,7 @@ At the same time，make the 7 modifications：
 
 2.when select the trajectory from the several candidate trajectory，not only consider the length of trajectory，but also focus on the back driving，the switch from forward to backward，and so on, make use the cost function to punish the focused vehicle behavior and select the optimization trajectory.
 
-3.when use the above modifications，the limit of trjectory direction at every function that accomplish the calculation in the reference paper will decrease the optional trajectory number，so delete the limit.
+3.when use the above modifications，the limit of trajectory direction at every function that accomplish the calculation in the reference paper will decrease the optional trajectory number，so delete the limit.
 
 4.after applying the 3), some candidate trajectory conld not reach the goal, so add a funcion to estimate if the trajectory can make the vehicle reach the goal, if not, delete the trajectory.
 
